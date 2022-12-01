@@ -3,7 +3,7 @@ const fs = require("fs");
 const data = fs
   .readFileSync("data.txt", "utf-8")
   .split("\n\n")
-  .flatMap((val) =>
+  .map((val) =>
     val.split("\n").reduce((t, c) => {
       t += parseInt(c);
       return t;
