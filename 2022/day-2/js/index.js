@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const data = fs.readFileSync("data.txt", "utf8");
+const data = fs.readFileSync("../data.txt", "utf8");
 
 const options = {
   A: "ROCK",

@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const data = fs
-  .readFileSync("data.txt", "utf-8")
+  .readFileSync("../data.txt", "utf-8")
   .split("\n\n")
   .map((val) =>
     val.split("\n").reduce((t, c) => {

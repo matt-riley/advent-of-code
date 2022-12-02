@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-file = File.read('data.txt')
+file = File.read('../data.txt')
 
 groups = []
 file.split("\n\n").each do |group|

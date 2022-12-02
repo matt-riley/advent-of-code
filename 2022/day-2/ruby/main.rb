@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-file_data = File.read('data.txt')
+file_data = File.read('../data.txt')
 
 CODE = {
   A: 'ROCK',
